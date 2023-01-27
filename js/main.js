@@ -37,7 +37,7 @@ function skiilsFel() {
       span.style.width = span.dataset.width;
     });
   }
-};
+}
 window.addEventListener("scroll", skiilsFel);
 // End The progress
 
@@ -66,5 +66,3 @@ function startCount(el) {
 }
 
 // End Count Number
-
-
