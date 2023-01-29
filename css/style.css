@@ -51,7 +51,7 @@ ul {
 }
 
 .dots {
-  background-image: url(../images/dots.png);
+  /* background-image: url("../image/do"); */
   height: 186px;
   width: 204px;
   background-repeat: no-repeat;
@@ -179,7 +179,7 @@ ul {
   color: var(--first-color);
   font-size: 19px;
   font-weight: bold;
-  height: 72px;
+  height: 53px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -199,10 +199,9 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 72px;
+  height: 53px;
   position: relative;
-  color: hsl(230deg 4% 31%);
-  font-weight: bold;
+  color: #8d8e96;
   padding: 0 30px;
   transition: var(--main-transition);
   overflow: hidden;
@@ -313,7 +312,7 @@ ul {
   display: block;
   padding: 15px;
   font-size: 15px;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 .header .mega-menu .links li i {
@@ -343,7 +342,7 @@ ul {
 }
 
 .landing .container {
-  min-height: calc(100vh - 72px);
+  min-height: calc(100vh - 53px);
   display: flex;
   align-items: center;
   padding-bottom: 120px;
@@ -1562,7 +1561,7 @@ ul {
 }
 
 .discount .image {
-  background-image: url(../images/discount.jpg);
+  /* background-image: url("../images/discount.jpg"); */
   background-size: cover;
   color: white;
   flex-basis: 50%;
@@ -1679,7 +1678,7 @@ ul {
 
 .footer .box h3 {
   color: white;
-  font-size: 50px;
+  font-size: 40px;
   margin: 0 0 20px;
   font-weight: bold;
 }
@@ -1863,7 +1862,7 @@ ul {
   }
 }
 
-@keyframes change-background {
+/* @keyframes change-background {
   0%,
   100% {
     background-image: url(../images/discount.jpg);
@@ -1872,6 +1871,6 @@ ul {
   50% {
     background-image: url(../images/land.jpg);
   }
-}
+} */
 
 /* End animation */

@@ -1,5 +1,5 @@
 // Date Count
-let countDowndate = new Date("Dec 31, 2022 23:59:59").getTime();
+let countDowndate = new Date("Dec 31, 2023 23:59:59").getTime();
 // console.log(countDowndate);
 
 let counter = setInterval(() => {
